@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://hankmern.herokuapp.com/api/user";
+const API_URL = "https://mernserver2.fly.dev/api/user";
 
 class AuthService{
 

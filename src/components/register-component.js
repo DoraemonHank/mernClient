@@ -29,6 +29,7 @@ const RegisterComponent = () => {
   }
 
   const handleRegister = () =>{
+    console.log("handleRegister");
     AuthService.register(username,email,password,role).then(() =>{
       window.alert("Registration succeeds. You are now redirected to the login page");
       history.push("/login"); // redirect to login page

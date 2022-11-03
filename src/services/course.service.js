@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://hankmern.herokuapp.com/api/courses";
+const API_URL = "https://mernserver2.fly.dev/api/courses";
 
 class CourseService{
 
